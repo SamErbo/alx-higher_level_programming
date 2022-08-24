@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for a in (chr(i) for i in range(97, 123)):
-    if a != 'e' and a != 'q':
-        print(a, end='')
-print('\n')
+# Author - Bamidele Adefolaju
+for letter in range(97, 123):
+    if chr(letter) != 'q' and chr(letter) != 'e':
+        print("{}".format(chr(letter)), end="")
