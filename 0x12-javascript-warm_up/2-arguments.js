@@ -5,8 +5,8 @@ const len = argv.length;
 
 if (len === 2) {
   console.log('No argument');
-} else if(len === 3) {
+} else if (len === 3) {
   console.log('Argument found');
-} else{
+} else {
   console.log('Arguments found');
 }
